@@ -23,6 +23,7 @@ repositories {
 }
 
 group = "io.github.oo00spy00oo"
+archivesBaseName = "grpc-error"
 version "0.0.2"
 
 dependencies {
