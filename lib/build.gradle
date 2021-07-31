@@ -57,6 +57,13 @@ java {
 
 publishing {
     publications {
+        maven(MavenPublication) {
+            groupId = 'io.github.oo00spy00oo'
+            artifactId = 'grpc-error'
+            version = '0.0.2'
+
+            from components.java
+        }
         mavenJava(MavenPublication) {
             pom {
                 name = 'gRPC Error'
